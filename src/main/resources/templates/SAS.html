@@ -1,0 +1,172 @@
+<html lang="en" xmlns:th="http:www.thymeleaf.org">
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<style>
+<!--  .floating_btn{
+  width: 80px;
+  height: 80px;
+  background: #009879;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color:#ffffff;
+  font-size: 40px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  transition: background 8.25s;
+  }
+
+.floating-btn:active {
+  background: #007063;
+}-->
+</style>
+<title>NCCS</title>
+<meta content="" name="description">
+<meta content="" name="keywords">
+<!-- Favicons -->
+<link href="/resources/assets/img/nccslogo2.jpg" rel="icon">
+<link href="/resources/assets/img/nccslogo2.jpg" rel="apple-touch-icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+<!-- Vendor CSS Files -->
+<link href="/resources/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+<link href="/resources/assets/vendor/aos/aos.css" rel="stylesheet">
+<link href="/resources/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="/resources/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="/resources/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="/resources/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+<link href="/resources/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+<link href="/resources/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+<!-- Template Main CSS File -->
+<link href="/resources/assets/css/style.css" rel="stylesheet">
+
+<!-- =======================================================
+* Template Name: Company - v4.7.0
+* Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+======================================================== -->
+</head>
+
+<body>
+<div th:replace="/index.html::one"></div>
+<br>
+<div class="inner-banner-section">
+  <img th:src="@{/portal/collage.jpg}" class="img-fluid">
+  <div class="overlap-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 headTitle">
+          <br>
+          <h2 class="">Security Assurance Standards (SAS) Division</h2>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a th:href="@{/about.html}">Home</a></li>
+              <li class="breadcrumb-item"><a th:href="@{/about.html}">About Us</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Security Assurance Standards (SAS) Division</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<main role="main" class="container">
+  <div class="row">
+    <div class="col-md-8 blog-main">
+      <div class="blog-post"><!--
+            <h2 class="blog-post-title">Security Assurance Standards (SAS) Division</h2>
+-->
+        <p>
+          This division is responsible for developing ITSARs, Test procedures, identification of Security test tools and managing the Security Assurance Standards Facility (SASF).  The SAS Division is also be responsible for testing of network elements in case of any security breach reported and in referral cases.
+          <br>
+        </p>
+        <h3 class="blog-post-title">Status of release of ITSARs</h3> <br>
+        <b>Approved ITSARs:</b>
+        <ul class="b">
+          <li>S-Gateway (4G Core Network Element)</li>
+          <li>PCRF (4G Core Network Element)</li>
+          <li>HSS (4G Core Network Element)</li>
+          <li>IP Router</li>
+          <li>Wifi (CPE) Modem</li>
+          <li>MME (4G Core Network Element)</li>
+          <li>Cryptographic Controls for ITSARs</li>
+          <li>E-Node – B (4G Access Network Element)</li>
+          <li>P-Gateway (4G Core Network Element)</li>
+          <li>Mobile Device</li>
+          <li>Pluggable (U)ICC</li> <br>
+        </ul>
+        <b>ITSARs for which Industry consultation is completed and are likely to be published shortly:</b>
+        <br>
+        <ul class="b">
+          <li>Cell Broadcast centre</li>
+          <li>PON Family Broadband Equipment OLT &amp; ONT</li>
+          <li>Private Automatic Branch Exchange (PABX)</li>
+          <li>Transmission Terminal Equipment</li>
+
+          <br>
+        </ul>
+        <b>Draft ITSARs Pending for Industry consultation:</b>
+        <ul class="b">
+          <li> Unified Data Management(UDM)-5G</li>
+          <li>Session Management Function (SMF)-5G</li>
+          <li>Authentication Server Function (AUSF)-5G</li>
+
+
+          <br>
+        </ul>
+
+
+        <b>ITSARs under preparation:</b>
+        <br>
+        <ul class="b">
+
+          <li>Security Edge Protection Proxy (SEPP)-5G</li>
+          <li>Network Repository Function (NRF)-5G</li>
+          <li>Network Exposure Function (NEF)-5G</li>
+          <li>Non-3GPP Interworking Function (N3IWF)-5G</li>
+          <li>Network Data Analytics Function (NWDAF)-5G</li>
+          <li>Service Communication Proxy (SCP)-5G</li>
+          <li>Feedback Device (IoT)</li>
+          <!--li>SATELLITE Equipment</li-->
+          <br>
+        </ul>
+      </div><!-- /.blog-post -->
+    </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+      <div class="p-3">
+        <a href="#">
+          <img class="img-fluid" alt="Login" th:src="@{/portal/login.png}" width="150" height="70"/>
+        </a>
+      </div>
+      <br>
+      <div class="icon-box iconbox-blue p-3" th:fragment="impLinks">
+        <h4><a href="">Important Links</a></h4>
+        <h6><marquee direction="up">
+          <div><a href="">The stakeholder consultation on Draft ITSAR on ISDN CPE (MCU) is scheduled on 25-Mar-2022 at 2.30 PM</a>
+          </div><div><br><br><a href="">Draft ITSAR for Set Top Box (STB) Devices Published on 18-03-2022</a>
+        </div><div><br><br><a href="https://www.dot.gov.in" target="-blank">Dept of Telecom</a>
+        </div><div><br><br><a href="https://www.tec.gov.in" target="-blank">Telecom Engineering Centre</a>
+        </div><div><br><br><a href="https://mtcte.tec.gov.in/" target="-blank">MTCTE Portal</a>
+        </div><div><br><br><a href="https://www.trai.gov.in" target="-blank">TRAI</a>
+        </div><div><br><br><a href="http://www.tdsat.gov.in/Delhi/Delhi.php" target="-blank">TDSAT</a>
+        </div><div><br><br><a href="https://www.itu.int/en/Pages/default.aspx" target="-blank">ITU</a>
+        </div>
+        </marquee></h6>
+      </div>
+    </aside><!-- /.blog-sidebar -->
+  </div><!-- /.row -->
+
+</main>
+<center> <h3> <font color="green">ITSARs and other documents can be downloaded from "Downloads" section.</font></h3><br></center>
+<div th:replace="/index.html::footer"></div>
+</body>
+</html>

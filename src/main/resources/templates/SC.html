@@ -1,0 +1,106 @@
+<html lang="en" xmlns:th="http:www.thymeleaf.org">
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<style>
+<!--  .floating_btn{
+  width: 80px;
+  height: 80px;
+  background: #009879;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color:#ffffff;
+  font-size: 40px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  transition: background 8.25s;
+  }
+
+.floating-btn:active {
+  background: #007063;
+}-->
+</style>
+<title>NCCS</title>
+<meta content="" name="description">
+<meta content="" name="keywords">
+<!-- Favicons -->
+<link href="/resources/assets/img/nccslogo2.jpg" rel="icon">
+<link href="/resources/assets/img/nccslogo2.jpg" rel="apple-touch-icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+<!-- Vendor CSS Files -->
+<link href="/resources/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+<link href="/resources/assets/vendor/aos/aos.css" rel="stylesheet">
+<link href="/resources/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="/resources/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="/resources/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="/resources/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+<link href="/resources/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+<link href="/resources/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+<!-- Template Main CSS File -->
+<link href="/resources/assets/css/style.css" rel="stylesheet">
+
+<!-- =======================================================
+* Template Name: Company - v4.7.0
+* Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+======================================================== -->
+</head>
+
+<body>
+<div th:replace="/index.html::one"></div>
+<br>
+<div class="inner-banner-section">
+  <img th:src="@{/portal/collage.jpg}" class="img-fluid">
+  <div class="overlap-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 headTitle">
+          <br>
+          <h2 class="">Security Lab Recognition(SLR) Division</h2>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a th:href="@{/about.html}">Home</a></li>
+              <li class="breadcrumb-item"><a th:href="@{/about.html}">About Us</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Security Lab Recognition(SLR) Division</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<main role="main" class="container">
+  <div class="row">
+    <div class="col-md-8 blog-main">
+      <div class="blog-post"><!--
+            <h2 class="blog-post-title">Security Assurance Standards (SAS) Division</h2>
+-->
+        <p>
+          This Division is responsible for issuing security certificate for the successfully tested Telecom Equipment. The work will include evaluation of the test results from Security labs and issuing Security certification based on the tests performed by the designated labs. Division also assists Sr.DDG, NCCS to manage the day to day affairs of NCCS.        </p>
+      </div><!-- /.blog-post -->
+    </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+      <div class="p-3">
+        <a href="#">
+          <img class="img-fluid" alt="Login" th:src="@{/portal/login1.png}" width="150" height="70"/>
+        </a>
+      </div>
+      <br>
+      <div th:replace="/SAS.html::impLinks">
+      </div>
+    </aside><!-- /.blog-sidebar -->
+  </div><!-- /.row -->
+</main>
+<div th:replace="/index.html::footer"></div>
+</body>
+</html>

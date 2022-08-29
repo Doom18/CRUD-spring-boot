@@ -1,0 +1,120 @@
+<html lang="en" xmlns:th="http:www.thymeleaf.org">
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<style th:inline="text">
+    body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-image {
+background-color: #0005;
+background-blend-mode: darken;
+background-image: url("/img/tstlBK2.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;'
+opacity: 1;
+}
+
+.modal-open .container-fluid, .modal-open  .container {
+    -webkit-filter: blur(5px) grayscale(90%);
+}
+
+</style>
+<title>NCCS</title>
+<meta content="" name="description">
+<meta content="" name="keywords">
+<!-- Favicons -->
+<link href="/resources/assets/img/nccslogo2.jpg" rel="icon">
+<link href="/resources/assets/img/nccslogo2.jpg" rel="apple-touch-icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+<!-- Vendor CSS Files -->
+<link href="/resources/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+<link href="/resources/assets/vendor/aos/aos.css" rel="stylesheet">
+<link href="/resources/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="/resources/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="/resources/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="/resources/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+<link href="/resources/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+<link href="/resources/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+<!-- Template Main CSS File -->
+<link href="/resources/assets/css/style.css" rel="stylesheet">
+
+<!-- =======================================================
+* Template Name: Company - v4.7.0
+* Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+======================================================== -->
+</head>
+
+<body>
+
+<div th:replace="/index.html::one"></div>
+<div class="bg-image">
+<div class="inner-banner-section" style="backdrop-filter: blur(3px)">
+  <div class="overlap-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 headTitle">
+          <br>
+          <h2 style="color:white">Security Lab Recognition/Designation (SLR) Division</h2>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a style="color:white" th:href="@{/about.html}">Home</a></li>
+              <li class="breadcrumb-item"><a style="color:white" th:href="@{/about.html}">About Us</a></li>
+              <li class="breadcrumb-item active" style="color:white" aria-current="page">Security Lab Recognition/Designation (SLR) Division</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<main role="main" class="container" >
+  <div class="row" style="backdrop-filter:blur(3px)">
+    <div class="col-md-8 blog-main">
+      <div class="blog-post"><!--
+            <h2 class="blog-post-title">Security Assurance Standards (SAS) Division</h2>
+-->
+        <p style="color:white">
+          This Division is responsible for notifying TSTL designation mechanism along with requirements to be met by TSTL, conducting all activities associated with the designation of TSTL and designate TSTLs by issuing a certificate. Related documents can be downloaded from Downloads section.          <br>
+        </p>
+        <div class="column right" style="overflow-x:auto;">
+          <br>
+          <h3> <font color="white">Documents for TSTL Designation: </font></h3>
+          <ul style="color:white">
+            <li><a href="application checklist.pdf" target="-blank" style="color:white">TSTL Designation Application Form - Checklist</a></li>
+            <li><a href="SLR NTRP payment guideline060622.pdf" target="-blank" style="color:white">Payment Guidelines for TSTL Designation</a></li>
+            <li><a href="Annexure D1 _TSTL_designation_Scheme_ 1310202002112020.pdf" target="-blank" style="color:white">TSTL Designation Scheme</a></li>
+            <li><a href="Annexure D2_TSTL_Lab_Requirement_13102020.pdf" target="-blank" style="color:white">Requirements for TSTL Designation</a></li>
+            <li><a href="Annexure D3_Application_form_13102020.pdf" target="-blank" style="color:white">Application Form for TSTL Designation </a></li>
+            <li><a href="FAQsTSTLdesignation06042021.pdf" target="-blank" style="color:white">FAQ on Designation of TSTLs</a></li>
+            <br>
+          </ul>
+        </div>
+      </div><!-- /.blog-post -->
+    </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+      <div style="display:block" class="p-3">
+        <a href="#">
+          <img class="img-fluid" alt="Login" th:src="@{/portal/login3.png}" style="width:auto height:10%"/>
+        </a>
+      </div>
+      <br>
+    </aside><!-- /.blog-sidebar -->
+
+  </div><!-- /.row -->
+</main>
+</div>
+</div>
+<div th:replace="/index.html::footer"></div>
+</body>
+</html>
